@@ -1,0 +1,65 @@
+/* Globel Selector */
+*{
+    /* CSS Resetting */
+    padding:0;
+    margin: 0;
+}
+/* Tag Selector */
+body{
+    background-image: url(./banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: rgba(88, 92, 92, 0.144);
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 150px;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    word-spacing: 6px;
+}
+label{
+    font-size: large;
+    color: rgb(6, 1, 20);
+    font-weight: bold;
+    
+}
+h1 {
+    text-align: center;
+    color: rgb(238, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+input{
+    width: 150px;
+    padding: 3px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight:550;
+    
+    
+}
+/* input:hover{
+    border-color: rgb(99, 2, 2); 
+}*/
+.button{
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 100px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 10px;
+   
+}
+.button:hover{
+    background-color: black;
+    color: rgba(46, 223, 184, 0.911);
+    font-size: 16px;
+}
